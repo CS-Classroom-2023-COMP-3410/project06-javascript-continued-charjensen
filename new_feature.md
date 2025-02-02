@@ -1,0 +1,4 @@
+I attempted to add a leaderboard for the fastest typing times per prompt.
+It should simply just pop up a leaderboard in the correct spot I want, and show the best local times that all users have attempted.
+You are supposed to keep typing until the end of the prompt, and then afterwards it would show the top 5 high scores.
+ChatGPT is using an invisible scoreboard that can be referenced and then populated after the prompt is finished. It keeps setting the invisible scoreboard visible rather than just copying the div and putting it into the correct spot. This ends up having two redundant scoreboards with the same data, which I asked 3 times for it to only show one leaderboard.
